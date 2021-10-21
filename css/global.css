@@ -1,0 +1,77 @@
+/* TEXT */
+
+.text_center{
+    text-align: center;
+}
+
+.heading_small{
+    font-size: 1.25rem;
+}
+.heading_medium{
+    font-size: 1.5rem;
+}
+.heading_big{
+    font-size: 1.75rem;
+}
+
+/* Renkler*/
+
+.background_primary{
+    background: #ff8f00;
+}
+
+.background_light{
+    background: #ffc046;
+}
+
+.bg_dark{
+    background: #c56000;
+}
+/* BUTTONS */
+
+.btn{
+    padding: 0.8rem 3rem;
+    border-radius: 75px;
+}
+.btn-primary{
+    background: #ff8f00;
+    border: solid  #ff8f00;
+    font-weight: bold;
+}
+
+.btn-block{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.btn-primary:hover{
+    color: #ff8f00;
+    background: #ffffff;
+    border: solid  #ff8f00;
+    
+}
+
+/* FORMS */
+
+.form-group{
+    padding: 0.25rem 0;
+}
+.form-group label{
+    display:block;
+    font-weight: bold;
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 10px;
+}
+/* CONTAINER */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+

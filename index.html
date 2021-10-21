@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisisel Sayfa</title>
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Mobile Uyumlar-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+
+<body>
+    <div class="Wrapper">
+        <header class="background_primary">
+            <div class="container">
+                <nav id="navbar">
+                    <h1 class="heading_small">Anıl Yalçın</h1>
+                    <ul>
+                        <li><a href="#home">Ana Sayfa</a></li>
+                        <li><a href="#training">Çalışmalar</a></li>
+                        <li><a href="#posts">Postlar</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="home">
+            <img class="anilpp" src="imgs/anil1.png" alt="Anıl Yalçın Fotografı"/>
+            <div class="name text_center">
+                <h2 class="heading_big">Anıl Yalçın</h2>
+                <p>FE Stajyer</p>
+            </div>
+            <a href="#posts" class="btn btn-primary">Postlar'a Gider</a>
+        </section>
+        <section id="training" class="bg_dark">
+            <h3 class="text_center heading_medium top_h3">Çalışmalar</h3>
+            <div class="items">
+                <article class="item">
+                    <i class="far fa-angry fa-2x"></i>
+                    <h3>Çalışma 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A corporis rerum porro velit earum quos.</p>
+                </article>
+                <article class="item">
+                    <i class="far fa-angry fa-2x"></i>
+                    <h3>Çalışma 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A corporis rerum porro velit earum quos.</p>
+                </article>
+                <article class="item">
+                    <i class="far fa-angry fa-2x"></i>
+                    <h3>Çalışma 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A corporis rerum porro velit earum quos.</p>
+                </article>
+            </div>
+        </section>
+        <section id="posts">
+            <h3 class="text_center heading_medium">Postlar</h3>
+            <div class="container">
+                <div class="posts">
+                    <!--1.POST-->
+                    <div class="post">
+                        <div class="post-image">
+                            <img src="imgs/kaya1.png" alt="tirmanis_">
+                            <a href="https://www.instagram.com/bludgerrr" target="blank"><span><i class="fab fa-instagram"></i> bludgerrr</span></a>
+                        </div>
+                        <div class="img_content">
+                            <div class="title">
+                                Kaya Tırmanışı
+                            </div>
+                            <div class="content">Bu çalışmada sanatçı insanın doğa ile olan tümleşik yaşam haykırışını, ekseriyetle mercek altına almıştır.</div>
+                            <div class="place">Antalya | Geyik Sivrisi (1700m)</div>
+                            <div class="day_rating">Güne Puan : (11/10)</div>
+                        </div>
+                    </div>
+                    <!--2.POST-->
+                    <div class="post">
+                        <div class="post-image">
+                            <img src="imgs/kaya2.png" alt="tirmanis_">
+                            <a href="https://www.instagram.com/bludgerrr" target="blank"><span><i class="fab fa-instagram"></i> bludgerrr</span></a>
+                        </div>
+                        <div class="img_content">
+                            <div class="title">
+                                Kaya Oturuşu
+                            </div>
+                            <div class="content">Bu çalışmada sanatçı, globalleşen dünyanın kitleleri yanlızlığa sevk ettiği, engin denizlerin derin delhizlerinde boğulan insanları canlandırdı.</div>
+                            <div class="place">Isparta | Eğirdir Gölü</div>
+                            <div class="day_rating">Güne Puan : (10/10)</div>
+                        </div>
+                    </div>
+                    <!--3.POST-->
+                    <div class="post">
+                        <div class="post-image">
+                            <img src="imgs/ekmek.png" alt="tirmanis_">
+                            <a href="https://www.instagram.com/bludgerrr" target="blank"><span><i class="fab fa-instagram"></i> bludgerrr</span></a>
+                        </div>
+                        <div class="img_content">
+                            <div class="title">
+                                Bakkal Yolcuğu
+                            </div>
+                            <div class="content">Bu çalışmada sanatçı evde biten 2.5 Litre kola ve ekmeğini tedarik etmek için bakkala doğru bir yolculuk gerçekleştirmiştir.</div>
+                            <div class="place">Antalya-Isparta Otoyolu</div>
+                            <div class="day_rating">Güne Puan : (2.5/10)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact" class="bg_dark">
+            <div class="contact-form">
+                <form>
+                    <h4 class="text_center heading_medium">Bana Ulaşın</h4>
+                    <div class="form-group">
+                        <label for="name">İsminiz:</label>
+                        <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        id="name"
+                        placeholder="İsminiz...">
+                        <label for="email">E-mail:</label>
+                        <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="example@gmail.com">
+                        <label for="message">Mesajınız:</label>
+                        <textarea name="message" id="message" class="form-control" rows="5"
+                        placeholder="Mesajınız..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-block btn-primary">Gönder</button>
+                </form>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/bludgerrr" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
